@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.main {
+    background-image: url(Image/BD-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 50%;
+}
+
+span svg {
+    width: 114px;
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 62px;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border-color: none;
+    border-style: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+@media screen and (max-width: 1830px) {
+
+    .main {
+        background-size: 2000px;
+    }
+
+}
+
+
+.middleText {
+    top: 50px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.bigText {
+    font-size: 50px;
+    font-family: Oswald;
+    text-align: center;
+
+}
+
+.smallText {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.lastText {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.inputs {
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+    gap: 10px;
+}
+
+.search {
+    padding: 20px 150px 20px 5px;
+    background-color: rgba(23, 23, 23, .7);
+    /* opacity: .3; */
+    font-size: 20px;
+
+    border-radius: 5px;
+    border-color: rgba(70, 73, 75, 0.7);
+}
+
+.searchButton {
+    padding: 5px 30px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+
+}
+
+.line {
+    height: 8px;
+    width: 100vw;
+    background-color: rgb(62, 55, 41);
+}
+
+
+
+
+@media screen and (max-width: 650px) {
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px;
+        position: relative;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .middleText {
+        color: white;
+        position: relative;
+        z-index: 1;
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .bigText {
+        font-size: 40px;
+        font-family: Oswald;
+        text-align: center;
+
+    }
+
+    .smallText {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+
+    }
+
+    .lastText {
+        font-size: 15px;
+
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .inputs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        position: relative;
+        gap: 10px;
+    }
+
+    .search {
+        padding: 10px 100px 10px 5px;
+        background-color: rgba(23, 23, 23, .7);
+        font-size: 20px;
+        border-radius: 5px;
+        border-color: rgba(70, 73, 75, 0.7);
+    }
+
+    .searchButton {
+
+        width: 200px;
+        height: 50px;
+
+    }
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 50vw;
+    margin: auto;
+
+}
