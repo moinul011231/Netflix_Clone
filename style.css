@@ -223,7 +223,54 @@ nav button {
 .first {
     display: flex;
     justify-content: center;
-    max-width: 50vw;
+    max-width: 70vw;
     margin: auto;
+    color: white;
+    align-items: center;
+    padding: 35px 0 35px 0;
+}
 
+.secImg{
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    width: 450px;
+}
+
+.first span{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first div{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media screen and (max-width: 1320px) {
+    .first{
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+.third{
+    text-align: start;
+    margin: auto;
+    padding: 200px;
+   
 }
