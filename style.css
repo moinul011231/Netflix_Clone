@@ -231,7 +231,7 @@ nav button {
     padding: 35px 0 35px 0;
 }
 
-.secImg{
+.secImg {
     position: relative;
 }
 
@@ -248,12 +248,12 @@ nav button {
     width: 450px;
 }
 
-.first span{
+.first span {
     font-size: 48px;
     font-weight: bolder;
 }
 
-.first div{
+.first div {
     font-size: 24px;
     display: flex;
     flex-direction: column;
@@ -262,18 +262,18 @@ nav button {
 
 
 @media screen and (max-width: 1320px) {
-    .first{
+    .first {
         flex-wrap: wrap;
     }
-    
+
 }
 
 
-.third{
+.third {
     text-align: start;
     margin: auto;
     padding: 200px;
-   
+
 }
 
 .faq h2 {
@@ -308,15 +308,42 @@ nav button {
     cursor: pointer;
 }
 
-.FaqText{
+.FaqText {
     text-align: center;
     font-size: x-large;
     padding-bottom: 0px;
     margin-bottom: 0;
 }
 
-.LastInput{
+.LastInput {
     padding-top: 0;
     margin-top: 0;
 
+}
+
+footer {
+    color: #595959;
+    padding: 100px;
+}
+
+footer div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #595959;
+    gap: 20px;
+    align-items: start;
+    margin: 0px 100px 0px 100px;
+}
+
+footer a {
+    text-decoration: underline;
+    text-align: start;
+
+}
+
+footer p {
+    text-align: start;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    text-decoration: underline;
 }
